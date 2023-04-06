@@ -6,41 +6,48 @@
         <meta name="description" content="Zoro is a Free anime streaming website which you can watch English Subbed and Dubbed Anime online with No Account and Daily update. WATCH NOW!">
         <meta name="keywords" content="anime to watch, watch anime,anime online, free anime online, online anime, anime streaming, stream anime online, english anime, english dubbed anime">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
         <!-- GOOGLE FONT -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
         <!-- FONT AWESOME ICON -->
         <script src="https://kit.fontawesome.com/2fb83d89d2.js" crossorigin="anonymous"></script>
-
-        <title>Watch Anime Online, Free Anime Streaming Online on Zoro.to Anime Website</title>
-
+        <!-- FAVICON -->
+        <link rel="icon" href="img/zoro-favicon.ico">
+        <!-- EXTERNAL CSS -->
         <link rel="stylesheet" href="style.css">
+        <title>Watch Anime Online, Free Anime Streaming Online on Zoro.to Anime Website</title>
     </head>
     <body>
         <header>
             <nav>
-                <a href="#">
-                    <i class="fas fa-bars mr-2"></i>
+                <a href="#" id="mobile-toggle">
+                    <i class="fas fa-bars"></i>
                     <p>Menu</p>
                 </a>
+                <ul>
+                    <a href="#"><li>Home</li></a>
+                    <a href="#"><li>Movies</li></a>
+                    <a href="#"><li>TV Series</li></a>
+                    <a href="#"><li>Most Popular</li></a>
+                    <a href="#"><li>Top Airing</li></a>
+                </ul>
             </nav>
         </header>
         <main>
             <!-- TOP CONTENT -->
-            <div class="topContent">
+            <div class="top-content">
                 <div class="logo">
                     <img src="img/logo.png" alt="logo">
                 </div>
-                <div class="searchContainer margin-default">
+                <div class="search-container margin-default">
                     <input type="text" placeholder="Search anime..."/>
                     <a href="#"><i class="fa fa-search"></i></a>
                 </div>
-                <div class="topSearchRecommendation margin-default">
+                <div class="top-search-recommendation margin-default">
                     <p>Top search: &nbsp
-                        <a href="">One Piece,</a>
-                        <a href="">Black Clover,</a>
+                        <a class="item" href="">One Piece,</a>
+                        <a class="item" href="">Black Clover,</a>
                         <a href="">Fairy Tail,</a>
                         <a href="">My Hero Academia,</a>
                         <a href="">Steins;Gate,</a>
@@ -48,23 +55,25 @@
                         <a href="">Emminence in Shadow,</a>
                         <a href="">Call of the Night,</a>
                         <a href="">Sword Art Online,</a>
-                        <a href="">Re:Zero Kaguya Sama,</a>
-                        <a href="">Love is War,</a>
-                        <a href="">Anohana</a>
+                        <a href="">Re:Zero,</a>
+                        <a href="">Kaguya Sama: Love is War,</a>
+                        <a href="">Anohana,</a>
+                        <a href="#">Your Lie in April</a>
                     </p>
-                </div>
-                <div class="homeBtn margin-default">
-                    <a href="#">View Full Site<i class="fas fa-arrow-circle-right"></i></a>
                 </div>
             </div>
 
-            <div class="shareBox margin-default">
+            <div class="home-btn margin-default">
+                <a href="#">View Full Site<i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+
+            <div class="share-box margin-default">
                 <p>Share Zoro</p>
                 <p>to your friends</p>
             </div>
             
             <!-- BELOW CONTENT -->
-            <div class="zoroInformation margin-default">
+            <div class="zoro-information margin-default">
                 <h1>Zoro.to - The best site to watch anime online for Free</h1>
                 <p>Do you know that according to Google, the monthly search volume for anime related topics is up to over 1 Billion times? Anime is famous worldwide and it is no wonder we've seen a sharp rise in the number of free anime streaming sites.</p>
                 <p>Just like free online movie streaming sites, anime watching sites are not created equally, some are better than the rest, so we've decided to build Zoro.to to be one of the best free anime streaming site for all anime fans on the world.</p>
@@ -84,7 +93,7 @@
                     <li><span>Streaming experience: </span>Compared to other anime streaming sites, the loading speed at Zoro.to is faster. Downloading is just as easy as streaming, you won't have any problem saving the videos to watch offline later.</li>
                     <li><span>Updates: </span>We updates new titles as well as fulfill the requests on a daily basis so be warned, you will never run out of what to watch on Zoro.</li>
                     <li><span>User interface: </span>Our UI and UX makes it easy for anyone, no matter how old you are, how long have you been on the Internet. Literally, you can figure out how to navigate our site after a quick look. If you want to watch a specific title, search for it via the search box. If you want to look for suggestions, you can use the site's categories or simply scroll down for new releases.</li>
-                    <li><span>Device compatibility:</span>Zoro works alright on both your mobile and desktop. However, we'd recommend you use your desktop for a smoother streaming experience.</li>
+                    <li><span>Device compatibility: </span>Zoro works alright on both your mobile and desktop. However, we'd recommend you use your desktop for a smoother streaming experience.</li>
                     <li><span>Customer care: </span> We are in active mode 24/7. You can always contact us for any help, query, or business-related inquiry. On our previous projects, we were known for our great customer service as we were quick to fix broken links or upload requested content.</li>
                 </ul>
                 <p>So if you're looking for a trustworthy and safe site for your Anime streaming, let's give Zoro.to a try. And if you like us, please help us to spread the words and do not forget to bookmark our site.</p>
@@ -94,10 +103,140 @@
                 <p>Thank you!</p>
             </div>
 
-            <div class="trendingPost">
-                <!-- Empty -->
+            <div class="trending-posts margin-default">
+                <h2>Trending Posts</h2>
+                <div class="user-board-1">
+                    <div class="header-board">
+                        <div class="left-header">
+                            <p>#Question</p>
+                            <p>2 hours ago</p>
+                        </div>
+                        <div class="right-header">
+                            <i class="fas fa-comment"></i>
+                            <p>24</p>
+                        </div>
+                    </div>
+                    <div class="main-board">
+                        <h3>What's your fav anime and why?</h3>
+                        <p>Mine is AOT</p>
+                    </div>
+                    <div class="footer-board">
+                        <img src="img/user-img/user-1.jpeg" alt="user 1">
+                        <p>manly4tr</p>
+                    </div>
+                </div>
+
+                <div class="user-board-2">
+                    <div class="header-board">
+                        <div class="left-header">
+                            <p>#Question</p>
+                            <p>15 hours ago</p>
+                        </div>
+                        <div class="right-header">
+                            <i class="fas fa-comment"></i>
+                            <p>265</p>
+                        </div>
+                    </div>
+                    <div class="main-board">
+                        <h3>"If you could switch lives with any anime character for a day, who would it be and why?"</h3>
+                        <p>mine eren yeager ... coz he is destroying the world</p>
+                    </div>
+                    <div class="footer-board">
+                        <img src="img/user-img/user-2.png" alt="user 2">
+                        <p>CHIFUYU Crab</p>
+                    </div>
+                </div>
+
+                <div class="user-board-3">
+                    <div class="header-board">
+                        <div class="left-header">
+                            <p>#Question</p>
+                            <p>9 hours ago</p>
+                        </div>
+                        <div class="right-header">
+                            <i class="fas fa-comment"></i>
+                            <p>61</p>
+                        </div>
+                    </div>
+                    <div class="main-board">
+                        <h3>where are you from?</h3>
+                        <p>I'm from scotland! (ik its a shit country)</p>
+                    </div>
+                    <div class="footer-board">
+                        <img src="img/user-img/user-3.jpeg" alt="user 3">
+                        <p>BEST_aNIMEOF__2023r</p>
+                    </div>
+                </div>
+
+                <div class="user-board-4">
+                    <div class="header-board">
+                        <div class="left-header">
+                            <p>#General</p>
+                            <p>15 hours ago</p>
+                        </div>
+                        <div class="right-header">
+                            <i class="fas fa-comment"></i>
+                            <p>160</p>
+                        </div>
+                    </div>
+                    <div class="main-board">
+                        <h3>YOUR PERSONAL RECORD (In Hrs) ANIME...</h3>
+                        <p>What is your personal record of LONGEST TIME YOU SPENDED CONTINUOUSLY WATCHING ANIME IN A DAY? means out of 24 hrs Mine : this one time i spends 9 hrs straight watching anime</p>
+                    </div>
+                    <div class="footer-board">
+                        <img src="img/user-img/user-4.png" alt="user 4">
+                        <p>Rizzalante</p>
+                    </div>
+                </div>
+
+                <div class="user-board-5">
+                    <div class="header-board">
+                        <div class="left-header">
+                            <p>#Suggestion</p>
+                            <p>9 hours ago</p>
+                        </div>
+                        <div class="right-header">
+                            <i class="fas fa-comment"></i>
+                            <p>32</p>
+                        </div>
+                    </div>
+                    <div class="main-board">
+                        <h3>Wanna rank up quick? Join me!</h3>
+                        <p>Hello guys as you all know zoro will be updated soon that will contain a ZRC market place to trade ZRC. In order to get lot of ZRC and rank up you should comment as much as possible and like others comments.</p>
+                    </div>
+                    <div class="footer-board">
+                        <img src="img/user-img/user-5.png" alt="user 5">
+                        <p>꧁༆۝𝔭𝔥𝔬𝔢𝔫𝔦𝔵۝༆꧂</p>
+                    </div>
+                </div>
+
+                <div class="user-board-6">
+                    <div class="header-board">
+                        <div class="left-header">
+                            <p>#Question</p>
+                            <p>4 hours ago</p>
+                        </div>
+                        <div class="right-header">
+                            <i class="fas fa-comment"></i>
+                            <p>12</p>
+                        </div>
+                    </div>
+                    <div class="main-board">
+                        <h3>Which was your crying moment and in which anime</h3>
+                        <p>share your most intense experience which made you almost cry</p>
+                    </div>
+                    <div class="footer-board">
+                        <img src="img/user-img/user-6.png" alt="user 6">
+                        <p>Tsuki</p>
+                    </div>
+                </div>
+
+                <div class="trending-posts-btn">
+                    <a href="#">Read More</a>
+                </div>
             </div>
         </main>
+
         <footer class="margin-default">
             <p>©2021 Zoro.to. All rights reserved.</p>
             <p><a href="#">Mangareader</a> - Read Manga Online For FREE</p>
